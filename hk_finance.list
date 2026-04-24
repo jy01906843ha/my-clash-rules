@@ -1,0 +1,29 @@
+payload:
+# === 🏦 香港銀行 ===
+# 滙豐銀行
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
+# 中銀香港
+DOMAIN-SUFFIX,bochk.com
+# 衆安銀行
+DOMAIN-SUFFIX,zabank.hk
+DOMAIN-SUFFIX,za.group
+
+# === 📈 香港券商 ===
+# 富途牛牛
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futuinc.com
+DOMAIN-SUFFIX,futu.com.hk
+DOMAIN-SUFFIX,fututrade.com
+# 長橋證券
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridge.global
+# 老虎證券
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.com.hk
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,tigersecurities.com

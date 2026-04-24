@@ -26,3 +26,71 @@ DOMAIN-SUFFIX,tigerbrokers.com
 DOMAIN-SUFFIX,tigerbrokers.com.hk
 DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,tigersecurities.com
+# 富途牛牛專用 IP 段 (騰訊雲/富途自建 IDC)
+IP-CIDR,119.28.0.0/16,no-resolve
+IP-CIDR,43.132.0.0/16,no-resolve
+IP-CIDR,129.226.0.0/16,no-resolve
+IP-CIDR,43.129.0.0/16,no-resolve
+# 滙豐與中銀可能涉及的 IP 段
+IP-CIDR,103.7.160.0/22,no-resolve
+IP-CIDR,202.60.224.0/19,no-resolve
+# === 眾安銀行 (ZA Bank) & 長橋 (Longbridge) ===
+# 它們大量使用阿里雲香港/新加坡節點
+IP-CIDR,47.242.0.0/16,no-resolve
+IP-CIDR,47.241.0.0/16,no-resolve
+IP-CIDR,47.75.0.0/16,no-resolve
+IP-CIDR,8.210.0.0/16,no-resolve
+IP-CIDR,161.117.0.0/16,no-resolve
+# === 老虎證券 (Tiger Brokers) ===
+# 包含華為雲及專用數據中心節點
+IP-CIDR,159.138.0.0/16,no-resolve
+IP-CIDR,119.3.0.0/16,no-resolve
+IP-CIDR,121.36.0.0/16,no-resolve
+# === 補充香港金融通用 BGP IP 段 ===
+IP-CIDR,202.60.224.0/19,no-resolve
+IP-CIDR,103.7.160.0/22,no-resolve
+# === 補充：富途與騰訊雲相關 (Futu / Tencent Cloud) ===
+IP-CIDR,150.109.0.0/16,no-resolve
+IP-CIDR,124.156.0.0/16,no-resolve
+IP-CIDR,152.136.0.0/16,no-resolve
+# === 補充：中銀與滙豐 (BOCHK / HSBC) ===
+# 這些是銀行自有或代管的資料中心段
+IP-CIDR,203.112.80.0/20,no-resolve
+IP-CIDR,203.78.0.0/19,no-resolve
+IP-CIDR,125.214.200.0/21,no-resolve
+# === 補充：眾安與長橋 (ZA Bank / Longbridge / Alibaba Cloud) ===
+# 阿里雲香港/新加坡核心加速段
+IP-CIDR,47.52.0.0/16,no-resolve
+IP-CIDR,47.56.0.0/16,no-resolve
+IP-CIDR,149.129.0.0/16,no-resolve
+IP-CIDR,8.209.0.0/16,no-resolve
+# === 補充：老虎證券與華為雲 (Tiger Brokers / Huawei Cloud) ===
+IP-CIDR,114.116.0.0/16,no-resolve
+IP-CIDR,117.78.0.0/16,no-resolve
+IP-CIDR,94.191.0.0/16,no-resolve
+# === 補充：亞太區通用金融加速 (AWS / Cloudflare 邊緣) ===
+# 很多金融 App 會用 AWS 香港 (ap-east-1) 做中轉
+IP-CIDR,18.162.0.0/15,no-resolve
+IP-CIDR,15.161.0.0/16,no-resolve
+# === 補充：長橋與眾安 (AWS 香港核心段) ===
+# 很多金融 App 的 API 閘道器跑在 AWS 香港
+IP-CIDR,18.163.0.0/16,no-resolve
+IP-CIDR,13.230.0.0/15,no-resolve
+IP-CIDR,43.198.0.0/16,no-resolve
+# === 補充：富途與騰訊雲香港 BGP ===
+IP-CIDR,121.51.0.0/16,no-resolve
+IP-CIDR,101.32.0.0/16,no-resolve
+IP-CIDR,162.62.0.0/16,no-resolve
+# === 補充：滙豐與中銀 (香港本地電訊商託管段) ===
+# 這些是銀行租用 PCCW 或 HKBN 專線的常見網段
+IP-CIDR,203.198.0.0/16,no-resolve
+IP-CIDR,218.102.0.0/15,no-resolve
+IP-CIDR,203.80.0.0/14,no-resolve
+IP-CIDR,61.244.0.0/16,no-resolve
+# === 補充：老虎證券與華為雲/微軟雲 (Azure) ===
+IP-CIDR,119.3.160.0/20,no-resolve
+IP-CIDR,13.75.0.0/16,no-resolve
+IP-CIDR,40.100.0.0/16,no-resolve
+# === 補充：香港金融通用 DNS 與 NTP 加速 (防污染) ===
+IP-CIDR,101.226.0.0/16,no-resolve
+IP-CIDR,140.207.0.0/16,no-resolve

@@ -1,4 +1,7 @@
 # 代理补充列表
+DOMAIN-SUFFIX,controlplane.tailscale.com
+DOMAIN-SUFFIX,log.tailscale.io
+DOMAIN-SUFFIX,derp.tailscale.com
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com

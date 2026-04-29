@@ -1,0 +1,71 @@
+# Crypto Exchange Rules - classical text format
+# 覆盖：币安及主流加密货币平台
+# 更新：2026-04
+
+# === 币安 Binance ===
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,bnbchain.org
+DOMAIN-SUFFIX,bscscan.com
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,bnbstatic
+IP-CIDR,13.32.0.0/15,no-resolve
+IP-CIDR,13.224.0.0/14,no-resolve
+IP-CIDR,99.86.0.0/16,no-resolve
+
+# === OKX ===
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okcoin.com
+DOMAIN-KEYWORD,okx
+
+# === Bybit ===
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit-exchange.com
+DOMAIN-KEYWORD,bybit
+
+# === Gate.io ===
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gateio.group
+
+# === Kraken ===
+DOMAIN-SUFFIX,kraken.com
+
+# === Coinbase ===
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,cbhh.me
+
+# === Bitget ===
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetapps.com
+
+# === KuCoin ===
+DOMAIN-SUFFIX,kucoin.com
+
+# === HTX (Huobi) ===
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,huobigroup.com
+
+# === MEXC ===
+DOMAIN-SUFFIX,mexc.com
+
+# === 行情数据 ===
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,coingecko.com
+
+# === 区块链浏览器 ===
+DOMAIN-SUFFIX,etherscan.io
+DOMAIN-SUFFIX,blockchain.com
+DOMAIN-SUFFIX,blockchair.com
+DOMAIN-SUFFIX,polygonscan.com
+
+# === 钱包 ===
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN-SUFFIX,ledger.com
+DOMAIN-SUFFIX,imtoken.im

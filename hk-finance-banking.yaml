@@ -1,0 +1,92 @@
+########################################
+# HK Finance Banking - OpenClash Rules
+# 覆盖：汇丰香港、中银香港、众安银行
+#       富途牛牛、老虎证券、长桥证券
+# 更新：2026-04
+########################################
+
+payload:
+
+  ########################################
+  # 汇丰香港 HSBC HK
+  ########################################
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,hsbcnet.com
+  - DOMAIN-SUFFIX,hsbcpb.com
+  - DOMAIN-SUFFIX,hsbc.com.cn
+  - DOMAIN-KEYWORD,hsbc
+  # HSBC 已知 IP 段（HSBC 自营）
+  - IP-CIDR,203.189.88.0/24,no-resolve
+  - IP-CIDR,203.189.89.0/24,no-resolve
+  - IP-CIDR,203.189.90.0/24,no-resolve
+  - IP-CIDR,203.189.91.0/24,no-resolve
+  - IP-CIDR,158.121.0.0/16,no-resolve
+
+  ########################################
+  # 中银香港 BOCHK
+  ########################################
+  - DOMAIN-SUFFIX,bochk.com
+  - DOMAIN-SUFFIX,boc.cn
+  - DOMAIN-SUFFIX,bocgroup.com
+  - DOMAIN-SUFFIX,ebochk.com.hk
+  - DOMAIN-KEYWORD,bochk
+  # BOCHK 已知 IP 段
+  - IP-CIDR,202.131.16.0/20,no-resolve
+  - IP-CIDR,43.227.12.0/22,no-resolve
+
+  ########################################
+  # 众安银行 ZA Bank
+  ########################################
+  - DOMAIN-SUFFIX,za.group
+  - DOMAIN-SUFFIX,zabank.com.hk
+  - DOMAIN-SUFFIX,za-group.com
+  - DOMAIN-SUFFIX,zan.com.hk
+  - DOMAIN-SUFFIX,zatech.com
+  - DOMAIN-KEYWORD,zabank
+  - DOMAIN-KEYWORD,za-group
+
+  ########################################
+  # 富途牛牛 Futu / Moomoo
+  ########################################
+  - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futuhk.com
+  - DOMAIN-SUFFIX,futu.hk
+  - DOMAIN-SUFFIX,moomoo.com
+  - DOMAIN-SUFFIX,moomoolite.com
+  - DOMAIN-SUFFIX,futuinc.com
+  - DOMAIN-KEYWORD,futunn
+  - DOMAIN-KEYWORD,moomoo
+  # Futu 已知 IP 段（香港自营服务器）
+  - IP-CIDR,43.154.0.0/16,no-resolve
+  - IP-CIDR,119.29.0.0/16,no-resolve
+  - IP-CIDR,150.109.0.0/16,no-resolve
+
+  ########################################
+  # 老虎证券 Tiger Brokers
+  ########################################
+  - DOMAIN-SUFFIX,itiger.com
+  - DOMAIN-SUFFIX,tigerbrokers.com
+  - DOMAIN-SUFFIX,tigersecurities.com
+  - DOMAIN-SUFFIX,tigerfintech.com
+  - DOMAIN-SUFFIX,tigerwit.com
+  - DOMAIN-SUFFIX,tigergroup.com
+  - DOMAIN-KEYWORD,itiger
+  - DOMAIN-KEYWORD,tigerbrokers
+  # Tiger 已知 IP 段（腾讯云香港）
+  - IP-CIDR,43.130.0.0/16,no-resolve
+  - IP-CIDR,43.135.0.0/16,no-resolve
+
+  ########################################
+  # 长桥证券 Longbridge / Longport
+  ########################################
+  - DOMAIN-SUFFIX,longbridge.hk
+  - DOMAIN-SUFFIX,longbridgeapp.com
+  - DOMAIN-SUFFIX,longport.app
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,lbctrl.com
+  - DOMAIN-SUFFIX,lb-finance.com
+  - DOMAIN-KEYWORD,longbridge
+  - DOMAIN-KEYWORD,longport
+  - DOMAIN-KEYWORD,lbkrs

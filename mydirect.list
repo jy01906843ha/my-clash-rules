@@ -1,6 +1,6 @@
-#DOMAIN-SUFFIX,tailscale.com
-#DOMAIN-SUFFIX,tailscale.io
-#DOMAIN-KEYWORD,tailscale
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
+DOMAIN-KEYWORD,tailscale
 DOMAIN-SUFFIX,jy01906843havps.ccwu.cc
 IP-CIDR,142.249.60.47/24,no-resolve
 IP-CIDR,45.192.192.50/24,no-resolve

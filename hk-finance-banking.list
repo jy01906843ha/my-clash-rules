@@ -37,6 +37,9 @@ DOMAIN-SUFFIX,futu.hk
 DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,moomoolite.com
 DOMAIN-SUFFIX,futuinc.com
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-KEYWORD,futu
+DOMAIN-KEYWORD,futustatic
 DOMAIN-KEYWORD,futunn
 DOMAIN-KEYWORD,moomoo
 IP-CIDR,43.154.0.0/16,no-resolve

@@ -1,3 +1,4 @@
 DOMAIN-SUFFIX,pool.ntp.org  
 DOMAIN-SUFFIX,ntp.org   
 DOMAIN-KEYWORD,ntp
+DOMAIN-SUFFIX,time.asia.apple.com

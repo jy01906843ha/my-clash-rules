@@ -1,0 +1,33 @@
+# HK Banking Rules - Direct Connection
+# 覆蓋：滙豐香港、中銀香港、眾安銀行
+# 用途：走直連（direct），避免代理 IP 觸發風控
+# 更新：2026-05
+
+# === 滙豐香港 HSBC HK ===
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,hsbcpb.com
+DOMAIN-SUFFIX,hsbc.com.cn
+# HSBC 自有 IP 段（相對明確）
+IP-CIDR,203.189.88.0/24,no-resolve
+IP-CIDR,203.189.89.0/24,no-resolve
+IP-CIDR,203.189.90.0/24,no-resolve
+IP-CIDR,158.121.0.0/16,no-resolve
+
+# === 中銀香港 BOCHK ===
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,bocgroup.com
+DOMAIN-SUFFIX,ebochk.com.hk
+DOMAIN-SUFFIX,boc.cn
+# BOCHK 自有 IP 段
+IP-CIDR,202.131.16.0/20,no-resolve
+IP-CIDR,43.227.12.0/22,no-resolve
+
+# === 眾安銀行 ZA Bank ===
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zabank.com.hk
+DOMAIN-SUFFIX,zabank.hk
+DOMAIN-SUFFIX,za-group.com
+DOMAIN-SUFFIX,zan.com.hk
+DOMAIN-SUFFIX,zatech.com

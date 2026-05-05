@@ -1,0 +1,41 @@
+# HK Broker Rules - Proxy
+# 覆蓋：富途牛牛、老虎證券、長橋證券
+# 用途：走代理（proxy），確保境外訪問正常
+# 更新：2026-05
+
+# === 富途牛牛 Futu / Moomoo ===
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futu.hk
+DOMAIN-SUFFIX,futu.com.hk
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,moomoolite.com
+DOMAIN-SUFFIX,futuinc.com
+DOMAIN-SUFFIX,futustatic.com
+# 富途/騰訊雲 IP（相對明確的 Futu 專用段）
+IP-CIDR,43.154.0.0/16,no-resolve
+IP-CIDR,150.109.0.0/16,no-resolve
+
+# === 老虎證券 Tiger Brokers / TIGER ===
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.com.hk
+DOMAIN-SUFFIX,tigersecurities.com
+DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tigerwit.com
+DOMAIN-SUFFIX,tigergroup.com
+# 老虎證券 IP
+IP-CIDR,43.130.0.0/16,no-resolve
+IP-CIDR,43.135.0.0/16,no-resolve
+
+# === 長橋證券 Longbridge / Longport ===
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longport.app
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,lb-finance.com

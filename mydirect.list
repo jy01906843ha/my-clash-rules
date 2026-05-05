@@ -1,8 +1,28 @@
-DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,tailscale.io
-DOMAIN-KEYWORD,tailscale
-DOMAIN-SUFFIX,jy01906843havps.ccwu.cc
-IP-CIDR,142.249.60.47/24,no-resolve
-IP-CIDR,45.192.192.50/24,no-resolve
-IP-CIDR6,2a0d:2683:f300:1e5e:19bb:f228:efdb:ade5/64,no-resolve
-IP-CIDR6,2407:cdc0:f008:3f6::/64,no-resolve
+# 個推推送
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,gepush.com
+
+# 極光推送
+DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,jpush.cn
+
+# 字節跳動 SDK
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,tobsnssdk.com
+
+# 容聯雲通訊
+DOMAIN-SUFFIX,easytomessage.com
+
+# 阿里廣告
+DOMAIN-SUFFIX,tanx.com
+
+# 快手
+DOMAIN-SUFFIX,kuaishouzt.com
+#DOMAIN-SUFFIX,tailscale.com
+#DOMAIN-SUFFIX,tailscale.io
+#DOMAIN-KEYWORD,tailscale
+#DOMAIN-SUFFIX,jy01906843havps.ccwu.cc
+#IP-CIDR,142.249.60.47/24,no-resolve
+#IP-CIDR,45.192.192.50/24,no-resolve
+#IP-CIDR6,2a0d:2683:f300:1e5e:19bb:f228:efdb:ade5/64,no-resolve
+#IP-CIDR6,2407:cdc0:f008:3f6::/64,no-resolve

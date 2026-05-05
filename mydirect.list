@@ -6,9 +6,13 @@ DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,jpush.io
 DOMAIN-SUFFIX,jpush.cn
 
-# 字節跳動 SDK
+# 字節跳動 SDK（抖音/頭條系）
+DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,tobsnssdk.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,iesdouyin.com
 
 # 容聯雲通訊
 DOMAIN-SUFFIX,easytomessage.com

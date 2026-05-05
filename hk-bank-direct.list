@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,hsbc.com
 DOMAIN-SUFFIX,hsbcnet.com
 DOMAIN-SUFFIX,hsbcpb.com
 DOMAIN-SUFFIX,hsbc.com.cn
+DOMAIN-SUFFIX,tealiumiq.com
+DOMAIN-SUFFIX,tiqcdn.com
+DOMAIN-SUFFIX,eum-appdynamics.com
 # HSBC 自有 IP 段（相對明確）
 IP-CIDR,203.189.88.0/24,no-resolve
 IP-CIDR,203.189.89.0/24,no-resolve

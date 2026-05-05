@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,tanx.com
 
 # 快手
 DOMAIN-SUFFIX,kuaishouzt.com
+
 #DOMAIN-SUFFIX,tailscale.com
 #DOMAIN-SUFFIX,tailscale.io
 #DOMAIN-KEYWORD,tailscale

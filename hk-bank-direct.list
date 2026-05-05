@@ -12,6 +12,9 @@ DOMAIN-SUFFIX,hsbc.com.cn
 DOMAIN-SUFFIX,tealiumiq.com
 DOMAIN-SUFFIX,tiqcdn.com
 DOMAIN-SUFFIX,eum-appdynamics.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,lpsnmedia.net
+DOMAIN-SUFFIX,vv1865.com
 # HSBC 自有 IP 段（相對明確）
 IP-CIDR,203.189.88.0/24,no-resolve
 IP-CIDR,203.189.89.0/24,no-resolve
@@ -23,6 +26,8 @@ DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,bocgroup.com
 DOMAIN-SUFFIX,ebochk.com.hk
 DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,etdsinfo.com
+DOMAIN-SUFFIX,etnet.com.hk
 # BOCHK 自有 IP 段
 IP-CIDR,202.131.16.0/20,no-resolve
 IP-CIDR,43.227.12.0/22,no-resolve
@@ -36,3 +41,6 @@ DOMAIN-SUFFIX,zan.com.hk
 DOMAIN-SUFFIX,zatech.com
 DOMAIN-SUFFIX,zafinsvc.com
 DOMAIN-SUFFIX,zaticdn.com
+DOMAIN-SUFFIX,zajourney.com
+IP-CIDR,170.33.0.0/16,no-resolve
+IP-CIDR,47.75.0.0/16,no-resolve

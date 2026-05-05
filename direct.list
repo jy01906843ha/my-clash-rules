@@ -1,4 +1,7 @@
-DOMAIN-SUFFIX,pool.ntp.org  
-DOMAIN-SUFFIX,ntp.org   
-DOMAIN-KEYWORD,ntp
-DOMAIN-SUFFIX,time.asia.apple.com
+# NTP 時間同步
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,apple.com,time.apple.com
+DOMAIN,time.apple.com
+DOMAIN,time.asia.apple.com
+DOMAIN,time.euro.apple.com

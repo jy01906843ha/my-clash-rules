@@ -17,17 +17,6 @@ DOMAIN-SUFFIX,futustatic.com
 # 富途/騰訊雲 IP（相對明確的 Futu 專用段）
 IP-CIDR,43.154.0.0/16,no-resolve
 IP-CIDR,150.109.0.0/16,no-resolve
-# 騰訊雲大陸 IP 段（替代 ASN 規則）
-IP-CIDR,119.29.0.0/16,no-resolve
-IP-CIDR,119.28.0.0/16,no-resolve
-IP-CIDR,120.233.0.0/16,no-resolve
-IP-CIDR,121.5.0.0/16,no-resolve
-IP-CIDR,193.112.0.0/16,no-resolve
-IP-CIDR,1.14.0.0/16,no-resolve
-IP-CIDR,223.109.0.0/16,no-resolve
-IP-CIDR,115.159.0.0/16,no-resolve
-IP-CIDR,118.89.0.0/16,no-resolve
-IP-CIDR,115.159.0.0/16,no-resolve
 
 # === 老虎證券 Tiger Brokers / TIGER ===
 DOMAIN-SUFFIX,itiger.com

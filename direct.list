@@ -5,3 +5,6 @@ DOMAIN-SUFFIX,apple.com,time.apple.com
 DOMAIN,time.apple.com
 DOMAIN,time.asia.apple.com
 DOMAIN,time.euro.apple.com
+# 大陸DNS
+IP-CIDR,223.5.5.5/32,no-resolve
+IP-CIDR,119.29.29.29/32,no-resolve

@@ -2,7 +2,10 @@
 DST-PORT,3478
 
 # 2. 仅 Tailscale 官方的 derp 中继节点直连（更精准，不影响其他包含 derp 的生僻域名）
-DOMAIN-REGEX,^derp[0-9]+\.tailscale\.com$
+DOMAIN-REGEX,^derp.*\.tailscale\.com$
+DOMAIN-KEYWORD,derp,DIRECT
 
 # 3. 内网设备互联域名直连
 DOMAIN-SUFFIX,ts.net
+
+

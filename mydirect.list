@@ -6,5 +6,3 @@ DOMAIN-REGEX,^derp.*\.tailscale\.com$
 
 # 3. 内网设备互联域名直连
 DOMAIN-SUFFIX,ts.net
-
-

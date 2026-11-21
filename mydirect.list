@@ -1,8 +1,8 @@
-# 1. 探测真实公网 IP 的 STUN 端口必须直连
+# 1. STUN 打洞探测端口直连
 DST-PORT,3478
 
-# 2. 所有 DERP 中继节点直连（获取最近的国内/香港节点和真实 IP）
-DOMAIN-KEYWORD,derp
+# 2. 仅 Tailscale 官方的 derp 中继节点直连（更精准，不影响其他包含 derp 的生僻域名）
+DOMAIN-REGEX,^derp[0-9]+\.tailscale\.com$
 
 # 3. 内网设备互联域名直连
 DOMAIN-SUFFIX,ts.net

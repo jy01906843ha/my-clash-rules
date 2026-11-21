@@ -1,12 +1,9 @@
 # Google Play 及特定 CDN 锁定代理规则
 DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,gvt1-cn.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-KEYWORD,xn--ngstr
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt1-cn.com
 DOMAIN-SUFFIX,play.googleapis.com
-DOMAIN-SUFFIX,googleusercontent.com
+GEOSITE,google-play

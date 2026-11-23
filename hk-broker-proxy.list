@@ -23,14 +23,18 @@ IP-CIDR,150.109.0.0/16,no-resolve
 
 # === 老虎證券 Tiger Brokers / TIGER ===
 DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,itigerup.com
 DOMAIN-SUFFIX,tigerbrokers.com
 DOMAIN-SUFFIX,tigerbrokers.com.hk
 DOMAIN-SUFFIX,tigersecurities.com
 DOMAIN-SUFFIX,tigerfintech.com
 DOMAIN-SUFFIX,tigerwit.com
 DOMAIN-SUFFIX,tigergroup.com
+DOMAIN-SUFFIX,upfintech.com
 DOMAIN-SUFFIX,laohu8.com
 DOMAIN-KEYWORD,tigerbrokers
+DOMAIN-KEYWORD,upfintech
+DOMAIN-KEYWORD,itiger
 # 老虎證券 IP
 IP-CIDR,43.130.0.0/16,no-resolve
 IP-CIDR,43.135.0.0/16,no-resolve

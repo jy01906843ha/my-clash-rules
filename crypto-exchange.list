@@ -11,8 +11,20 @@ DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,binancezh.com
 DOMAIN-SUFFIX,bnbchain.org
 DOMAIN-SUFFIX,bscscan.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.im
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,bnappkey.com
+DOMAIN-SUFFIX,saasexch.info
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,bntrace.net
 DOMAIN-KEYWORD,binance
 DOMAIN-KEYWORD,bnbstatic
+DOMAIN-KEYWORD,saasexch
+DOMAIN-KEYWORD,bntrace
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.224.0.0/14,no-resolve
 IP-CIDR,99.86.0.0/16,no-resolve
@@ -21,11 +33,23 @@ IP-CIDR,99.86.0.0/16,no-resolve
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okcoin.com
+DOMAIN-SUFFIX,okx.link
+DOMAIN-SUFFIX,okx.info
+DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,okx.site
+DOMAIN-SUFFIX,okxcdn.com
+DOMAIN-SUFFIX,oklink.com
 DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,okex
 
 # === Bybit ===
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit-exchange.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.global
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycnd.com
 DOMAIN-KEYWORD,bybit
 
 # === Gate.io ===
@@ -53,6 +77,14 @@ DOMAIN-SUFFIX,huobigroup.com
 
 # === MEXC ===
 DOMAIN-SUFFIX,mexc.com
+
+# === 香港持牌合规交易所 HashKey / OSL ===
+DOMAIN-SUFFIX,hashkey.com
+DOMAIN-SUFFIX,hashkey.info
+DOMAIN-SUFFIX,hashkey.me
+DOMAIN-KEYWORD,hashkey
+DOMAIN-SUFFIX,osl.com
+DOMAIN-KEYWORD,osl
 
 # === 行情数据 ===
 DOMAIN-SUFFIX,coinmarketcap.com

@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,sourceforge.net
 DOMAIN-SUFFIX,dl.sourceforge.net
 DOMAIN-KEYWORD,sourceforge
 DOMAIN-SUFFIX,evolution-x.org
+DOMAIN-SUFFIX,bunnycdn.com
+DOMAIN-SUFFIX,b-cdn.net
 
 # LineageOS
 DOMAIN-SUFFIX,lineageos.org

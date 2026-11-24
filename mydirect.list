@@ -14,6 +14,3 @@ SRC-PORT,41641
 SRC-PORT,41642
 DST-PORT,41641
 DST-PORT,41642
-
-# 5. 中国大陆 IP 直连（防止国内 P2P 打洞和国内 IP 流量走代理）
-GEOIP,CN,no-resolve

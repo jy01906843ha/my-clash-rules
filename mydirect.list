@@ -4,5 +4,16 @@ DST-PORT,3478
 # 2. 仅 Tailscale 官方的 derp 中继节点直连（更精准，不影响其他包含 derp 的生僻域名）
 DOMAIN-REGEX,^derp.*\.tailscale\.com$
 
-# 3. 内网设备互联域名直连
+# 3. 内网设备互联域名与虚拟网段直连
 DOMAIN-SUFFIX,ts.net
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR6,fd7a:115c:a1e0::/48,no-resolve
+
+# 4. Tailscale 节点通信端口直连（源端口与目标端口）
+SRC-PORT,41641
+SRC-PORT,41642
+DST-PORT,41641
+DST-PORT,41642
+
+# 5. 中国大陆 IP 直连（防止国内 P2P 打洞和国内 IP 流量走代理）
+GEOIP,CN,no-resolve
